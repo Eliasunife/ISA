@@ -23,7 +23,7 @@ public class Main {
                     break;
                 case 2:
                     Reminder reminderApp = new Reminder();
-                    reminderApp.run(args);
+                    reminderApp.run();
                     break;
                 case 3:
                     Maintenance maintenanceApp = new Maintenance();
